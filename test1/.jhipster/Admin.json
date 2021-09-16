@@ -1,0 +1,15 @@
+{
+  "fields": [
+    {
+      "fieldName": "admin",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    }
+  ],
+  "relationships": [],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Admin",
+  "changelogDate": "20210916064105"
+}

@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "fieldName": "doctor",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "minlength", "maxlength"],
+      "fieldValidateRulesMinlength": "1",
+      "fieldValidateRulesMaxlength": 20
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "admin",
+      "otherEntityName": "admin",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Doctor",
+  "changelogDate": "20210916064819"
+}
