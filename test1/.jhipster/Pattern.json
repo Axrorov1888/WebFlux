@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "fieldName": "pattern",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "2"
+    }
+  ],
+  "relationships": [],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Pattern",
+  "changelogDate": "20210916111332"
+}
