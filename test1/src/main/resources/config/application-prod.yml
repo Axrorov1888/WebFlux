@@ -33,9 +33,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/AnorBank
-    username: AnorBank
-    password: 123
+    url: jdbc:postgresql://localhost:5432/test
+    username: test
+    password: test
     hikari:
       poolName: Hikari
       auto-commit: false

@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "fieldName": "room",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "faculty",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "minlength"],
+      "fieldValidateRulesMinlength": "1"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "region",
+      "otherEntityName": "region",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "service": "no",
+  "readOnly": false,
+  "pagination": "no",
+  "name": "University",
+  "changelogDate": "20210923063642"
+}

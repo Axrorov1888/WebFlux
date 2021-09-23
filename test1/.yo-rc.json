@@ -43,7 +43,7 @@
     "clientThemeVariant": "",
     "withAdminUi": true,
     "languages": ["en", "fr"],
-    "lastLiquibaseTimestamp": 1631790812000,
-    "entities": ["Admin", "Doctor", "Image", "Pattern"]
+    "lastLiquibaseTimestamp": 1632381775000,
+    "entities": ["Admin", "Doctor", "Image", "Pattern", "DEV", "Region", "University", "Student", "Teacher"]
   }
 }
